@@ -82,6 +82,7 @@ void setup(){
 
 
   pinMode(PIN, OUTPUT);
+  // connect to Wi-Fi
   wifiManager.autoConnect("BOUND-0", "ramdhany");
   WiFi.softAPdisconnect (true);
 
