@@ -62,6 +62,7 @@ void onLightChange(int i) {
       setLight(0);
       break;
       // disconnected to these bound ids
+
 //    case 7:
 //      colorWipe(COLOR_7, 50, 4);
 //      setLight(0);
