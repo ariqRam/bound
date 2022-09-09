@@ -96,6 +96,7 @@ void setup(){
 }
 
 void loop(){
+  // main loop
   remoteMe.loop();
   switch(light) {
     case 13:
